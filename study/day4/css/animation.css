@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+.animation{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    animation-name: textcolor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes textcolor{
+    33%{
+        color: rgb(112, 243, 193);
+    }
+    66%{
+        color: rgb(48, 247, 98);
+    }
+    100%{
+        color: rgb(25, 71, 4);
+    }
+}
+
+.ani_2{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    animation-name: font-size;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes font-size{
+    0%{
+        font-size: 500%
+        
+    }
+
+    50%{
+        font-size:100%
+    }
+
+    100%{
+        font-size: 500%
+    }
+}
+
+.fail-box{
+    height: 120px;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    background-image: url("https://post-phinf.pstatic.net/MjAxNzA0MTBfMTcz/MDAxNDkxODAxODM4Nzg4.7I-2_tHK7JNfCAtyB65kQfztZnENjVgjFm_ztzlcJO4g.t7wy9ePxamnFPXBRkRbweFyAUrD6QPAdY9CSDOtfGasg.JPEG/11137955_741740985945890_1570493474_n.jpg?type=w1200");
+    background-position: center center;
+    background-repeat: no-repeat;
+    animation-name: img;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes img{
+    13%{
+        background-image: url("https://s3-us-west-1.amazonaws.com/niusnews-imgs/236331_h.jpg");
+    }
+
+    46%{
+        background-image: url("https://i.pinimg.com/originals/74/45/42/74454222dacf679d24cfff8dbaba250d.png");
+    }
+
+    79&{
+        background-image: url("http://potsu.net/files/attach/images/4300621/661/715/008/4221e550de9b1ffdbcdfa1838de34b71.jpg");
+    }
+
+    100%{
+        background-image: url("https://s3-us-west-1.amazonaws.com/niusnews-imgs/236331_h.jpg");
+    }
+}

@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li{
+    display: inline-block;
+    width: calc(25% - 5px);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
