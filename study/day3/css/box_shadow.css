@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+#totoro{
+    box-shadow: 2px 2px 5px darkcyan;
+}
+
+#empty_box{
+    height: 500px;
+    width: 500px;
+    box-shadow: 2px 2px 5px darkcyan inset;
+}
+#totoro:hover{
+    cursor: pointer;
+}

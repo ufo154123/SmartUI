@@ -1,0 +1,41 @@
+@charset "utf-8";
+div{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    background-color: steelblue;
+
+}
+
+div:hover{
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+    background-color: silver;
+
+}
+div:nth-child(odd){
+    background-color: darkslategrey;
+}
+div:nth-child(even){
+    background-color: gray;
+}
+div:nth-child(odd):hover{
+    background-color: darkslategrey;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+div:nth-child(even):hover{
+    background-color: gray;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+}
+div:nth-child(3){
+    background-color: blue;
+}

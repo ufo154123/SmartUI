@@ -1,0 +1,190 @@
+@charset "utf-8";
+.outbox{
+    width: 750px;
+    height: 551px;
+   
+    margin: 121px 0px 0px calc(50% - 375px);
+    box-shadow: 0px 0px 5px gray;
+}
+
+.inbox{
+   padding: 48px 40px 36px 40px;
+   width: 670px;
+   height: 464px;
+}
+.innerbox{
+    height: 464px;
+  
+}
+.leftbox{
+    display: inline-block;
+    width: 370px;
+    height: 464px;
+
+    
+}
+.rightbox{
+    display: inline-block;
+    width: 250px;
+    height: 464px;
+    
+}
+.logo_img{
+    width: 370px;
+    height: 24px;
+}
+.headtext_box{
+    width: 370px;
+    height: 73px;
+    font-size: 24px;
+}
+
+.headtext{
+    height: 32px;
+    width: 320px;
+    padding-top: 16px;
+}
+
+
+
+
+h1{
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 32px;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    padding: 1px 0 3px 0;
+}
+
+.info{
+    width: 370px;
+    height: 344px;
+    padding-top: 24px;
+}
+
+.input-info{
+    height: 264px;
+    width: 370px;
+}
+
+.alt-login{
+    height: 48px;
+    width: 370px;
+    margin: 32px 0 0 0;
+}
+
+.full-name{
+    height: 76.8px;
+    width: 370px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.last-name{
+    
+    width: 170px;
+    margin: 0 17px 0 0;
+    padding: 24px 0 0 0;
+    display: inline-block;
+   
+    
+}
+
+.first-name{
+ 
+    width: 170px;
+    margin: 0px;
+    padding: 24px 0 0 0;
+    display: inline-block;
+    
+}
+
+#lastname{
+    height: 24px;
+    width: 177px;
+    font-size: 15px;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: gainsboro;
+  
+}
+
+#firstname{
+    height: 24px;
+    width: 177px;
+    font-size: 15px;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: gainsboro;
+   
+}
+
+.user_mail{
+    height: 24px;
+    width: 177px;
+    font-size: 15px;
+    border-style: none;
+  
+}
+
+.input_id_box{
+    width: 370px;
+    height: 24px;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: gainsboro;
+}
+
+#input-id{
+    width: 250px;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: gainsboro;
+}
+
+.gmail{
+    border: none;
+    width: 100px;
+    display: inline-block;
+}
+
+.info-sentence{
+    font-size: 13px;
+}
+
+.g_m{
+    font-size: 15px;
+}
+
+.alt-login-a{
+    text-decoration: none;
+}
+
+.alt-login-b{
+    float: right;
+    width: 78px;
+    height: 30px;
+    background-color: dodgerblue;
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a{
+    color: dodgerblue;
+}
+
+.img_right{
+    position: absolute;
+    top: 250px;
+    right: calc(50% - 200px);
+}
