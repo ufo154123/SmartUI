@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+#google_image{
+    width: 100px;
+    height: 25px;
+}
+input{
+    font-size: 19px;
+    width: 400px;
+}
+.emailphone{
+    padding-top: 100px;
+}
+.forgot{
+    color: dodgerblue;
+    padding-top:50px;
+    font-size:19px;
+}
+.computer{
+    font-size:14px;
+    padding-top:50px;
+}
+.account{
+    font-size:20px;
+    color: dodgerblue;
+}
+
